@@ -45,3 +45,23 @@ print("Tupla:", my_tuple)
 # Acesso a elementos funciona igual às listas
 print("Primeiro elemento da tupla:", my_tuple[0])
 print("Último elemento da tupla:", my_tuple[-1])
+
+# Loop for interando sobre elementos de uma lista 
+fruits = ["maça", "banana", "morango"]
+print("Frutas na lista:")
+for fruit in fruits:
+    print(fruit)
+
+#Loop while executando enquanto condição é verdadeira
+print("Contagm de 0 a 4:")
+i = 0
+while i < 5:
+    print(i)
+    i += 1  # Incrementa o contador 
+
+# Loop for com acesso ao índice e elemento imultaneamente usando enumerate
+print("Elementos da list com seus índices:")
+my_list = [1, 2, 3, 4, 5]
+for indice, elemento in enumerate(my_list):
+    print(f"Índice {indice}: {elemento}")
+
